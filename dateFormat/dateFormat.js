@@ -29,4 +29,8 @@ class formatDate {
   }
 }
 
-// export default formatDate
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = formatDate;
+}
+
