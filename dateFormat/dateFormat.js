@@ -29,4 +29,4 @@ class formatDate {
   }
 }
 
-export default formatDate
+// export default formatDate
