@@ -1,0 +1,28 @@
+.td-select{
+  position: absolute;
+  width: 100%;
+  top:calc(100% + 30px);
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 15px;
+  display: none;
+}
+.sl-active{
+  color: #f4982b;
+}
+.triangle{
+  content:'';
+  width: 0;
+  height: 0;
+  position: absolute;
+  border:10px solid transparent;
+  border-bottom:10px solid #ccc;
+  top:-22px;
+  left:10px;
+}
+.td-select p{
+  width: 100%;
+  line-height:35px;
+  border-bottom:1px solid #ebebeb;
+  text-align: center;
+}

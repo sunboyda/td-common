@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./select.css">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+    .app{
+      width: 200px;
+      height: 50px;
+      border:1px solid #ccc;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+    <div class='app'>
+
+    </div>
+    <script src='./select.js'></script>
+    <script>
+      let data = [
+      {
+      id:1,
+      label:"hahah"
+      },{
+        id:2,
+        label:"bu shi ba "
+      },{
+        id:3,
+        label:"jiu shi wo "
+      },{
+        id:4,
+        label:"哈哈"
+      }
+  ]
+      new Select({
+        ele:document.querySelector('.app'),
+        data,
+        triangle:true,
+        callback(){
+          console.log(012)
+        }
+      })
+    </script>
+</body>
+</html>
