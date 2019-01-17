@@ -38,3 +38,7 @@ class Select {
     ele.appendChild(i)
   }
 }
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = formatDate;
+}
