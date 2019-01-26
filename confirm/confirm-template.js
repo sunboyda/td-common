@@ -1,4 +1,4 @@
-export default template = (data) => {
+export default (data) => {
   return `
   <div class='common-confirm'>
   <div class='confirm-box'>
