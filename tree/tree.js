@@ -1,6 +1,6 @@
 class Tree {
   constructor() {}
-  dataToThrr(data) {
+  dataToTree(data) {
     // 获取所有的没有父节点的数据
     let parents = data.filter(value => value.parentId == undefined || value.parentId == null)
     // 获取所有的有父节点的数据
@@ -24,6 +24,4 @@ class Tree {
 }
 
 
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = formatDate;
-}
+export default Tree
